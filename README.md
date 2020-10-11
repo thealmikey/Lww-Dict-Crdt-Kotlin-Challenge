@@ -12,3 +12,5 @@ Last-Write-Win-Dictionary CRDT Kotlin implementation.
         Map("MyKey" to Set(Pair("Foo",1599720000000),Pair("Foo","1599721111111"),Pair("Bar","1599723333333"))
         
  The value for "MyKey" key above is the item in the set with the latest timestamp,in this case it's "Bar"
+ 
+ Detail for how it works are demonstrated in the tests. :)
